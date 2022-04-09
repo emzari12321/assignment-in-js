@@ -9,7 +9,7 @@
 
 // 1 კომენტარები
 
-/
+/*
   // კომენტარები გაფუჭდა თქვენი დავალებაა
   // არასწორად დაწერილი კომენტარი ჩაასწოროთ
   // და ასევე გამოიყენოთ თქვენი კოდის აღსაწერად
@@ -30,13 +30,18 @@
 */
 
 // >>>> კოდი დაწერეთ აქ
+  const firstname = 'მაიკლ';
+  const lastname = 'ჯექსონი';
+  let asaki = 51;
+  let dabadebis_weli = 1958;
+  const dabadebis_adgili = 'ინდიანას შტატშის ქალაქ გარი';
 
 
 
 
 // 
 
-/
+/*
   // დროა დავიწყოთ მზადება ჩვენს მომავალ პროექტზე.
   // ჩვენი დავალეებაა მოვიფიქროთ რაიმე პროდუქტთა სია
   // რომელსაც გამოვიყენებთ მომავალში.
@@ -50,8 +55,10 @@
 */
 
 
-/ / >>>> კოდი დაწერეთ აქ
-
+// >>>> კოდი დაწერეთ აქ
+  const BookName = "მე, ბებია, ილიკო და ილარიონი";
+  const AuthrName = "ნოდარ დუმბაძე";
+  let ProductQuant = 94;
 
 //
 
@@ -71,25 +78,31 @@ const hisName = ["bob"];
 const isHigh = "true";
 const dateOfBirth = "1995";
 
-
+// ჩემს მიერ შესწორებული კოდი
+const age = 1;
+const hisName = "bob";
+const isHigh = true;
+const dateOfBirth = 1995;
 
 
 // ეს კოდი ამოწმებს თქვენ მიერ მითითებულ ტიპებს
 
 // თქვენი მიზანია დააბრუნოთ პირველი 4 frue
 
-console.log(typeof age === "number");
+console.log(typeof age !== "number");
 console.log(typeof hisName === "string");
-console.log(typeof isHigh === "boolean");
-console.log(typeof dateOfBirth === "number")
+console.log(typeof isHigh !== "boolean");
+console.log(typeof dateOfBirth !== "number")
 
 
 
-/ აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
+// აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
 
 // მაგ: console.log(typeof age)
-
-
+console.log(typeof age)
+console.log(typeof hisName)
+console.log(typeof isHigh)
+console.log(typeof dateOfBirth)
 
 // ოპერატორები არითმეტიკა
 
@@ -98,8 +111,13 @@ let num = 5;
 // გამოიყენეთ ყველა ვარიანტი რომლითაც შეგვიძლია ამ ციფრის გაზრდა
 
 // >>> კოდი დაწერეთ აქ
+num++;
 
+num = 6
 
+for (let i = 0; i < 5; i++) {
+  num += num;
+}
 //
 
 console.log(num)
@@ -110,6 +128,7 @@ console.log(num)
 // მნიშვნელობები და გაიგოთ შეკრებილი მონაცემების ტიპი
 
 // >>> კოდი დაწერეთ აქ
-
-
+  const five = 5;
+  let teen = 10;
+  console.log(five + !teen);
 //
